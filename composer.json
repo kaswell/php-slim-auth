@@ -1,0 +1,23 @@
+{
+    "name": "kaswell/php-slim-auth",
+    "type": "project",
+    "description": "Test project from vitebsk.biz.",
+    "require": {
+        "php": ">8.0",
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "bootstrap/helpers.php"
+        ]
+    }
+}
