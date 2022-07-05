@@ -1,6 +1,13 @@
 <?php
 
 define('APP_START', microtime(true));
+
+/*
+|--------------------------------------------------------------------------
+| Register base path
+|--------------------------------------------------------------------------
+*/
+
 define('BASE_DIR', __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR);
 
 /*
@@ -16,4 +23,4 @@ require BASE_DIR . 'vendor/autoload.php';
 | Run The Application
 |--------------------------------------------------------------------------
 */
-require_once BASE_DIR . 'bootstrap/app.php';
+require BASE_DIR . 'bootstrap/application.php';
